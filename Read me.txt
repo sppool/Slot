@@ -1,0 +1,39 @@
+card_score.csv            卡牌賠率表 讀取資料用
+line_way.csv               賠付線表  讀取資料用
+
+case1-1~4_pickle.dat          Case1跑25萬次spin  共四組  RTP列表 讀取資料用
+case2-1~4_pickle.dat          Case2跑25萬次spin  共四組  RTP列表 讀取資料用
+
+slot math.py              純數學計算 RTP:385%
+slot_func.py              演算法所需函式
+
+SLOT1.py                  Case1 演算法  case1  RTP:605%
+SLOT2.py                  Case2 演算法  case2  RTP:2152%
+
+spin 250K 4 times_RTP.py    畫圖 
+
+RTP1.PNG                   Case1 RTP圖形
+RTP2.PNG                   Case2 RTP圖形
+RTP.PNG                    Case1 + Case2結果圖形
+
+Case1 RTP 資料分布
+
+count    2000.00000  資料筆數(500次spin平均) 共100萬次
+mean      605.46612  RTP平均值
+std        62.75112  標準差
+min       409.68000  最小值
+25%       559.74250  四分位數    Q1
+50%       602.70000  中位數      Q2
+75%       645.45500  大四分位數  Q3
+max       861.48000  最大值
+
+Case2 RTP 資料分布
+
+count    2000.000000  資料筆數(500次spin平均) 共100萬次
+mean     2152.876675  RTP平均值
+std       257.805428  標準差
+min      1496.930000  最小值
+25%      1958.300000  四分位數    Q1
+50%      2128.625000  中位數      Q2
+75%      2323.435000  大四分位數  Q3
+max      3020.860000  最大值
